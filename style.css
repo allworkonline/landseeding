@@ -23,6 +23,11 @@
     font-style: italic;
  }
 
+ .text:hover{
+    transform: rotateY(360deg);
+    transition: 5s;
+ }
+
  .img{
     margin-left: 10px;
     height: 25px;
@@ -46,6 +51,7 @@
     border-color: black;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
  }
 
  .home{
@@ -154,7 +160,7 @@
     font-weight: bold;
     /* margin-right: auto; */
     color: rgb(0, 0, 0);
-    margin-top: 20px;
+    margin-top:10px;
 }
 
 .a{
@@ -169,5 +175,5 @@
     font-weight: bold;
     /* margin-right: auto; */
     color: rgb(0, 0, 0);
-    margin-top: 20px;
+     margin-top:10px;
 }
